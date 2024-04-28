@@ -2,7 +2,6 @@
 python -m PyQt5.uic.pyuic -x untitled.ui -o ui.py
 
 
-
 #шаблон python файлу
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QMainWindow
@@ -19,6 +18,13 @@ app = QApplication([])
 ex = Widget()
 ex.show()
 app.exec_()
+
+
+#стилізація CSS
+color:red;
+background-color;
+font-size:18px;
+border:2px solid red;
 
 
 #створення функцій
